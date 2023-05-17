@@ -1,0 +1,199 @@
+body {
+    background-color:#0F0E0E ;
+
+    color: white;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-shadow: 8px 8px 10px #0000008c; 
+    background-color: #343a40;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%239C92AC' fill-opacity='0.25' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"), linear-gradient(to right top, #343a40, #2b2c31, #211f22, #151314, #000000);
+    
+}
+
+#title {
+    background-color: #040b29;
+    color: aliceblue;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+#showcase {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 10px;
+}
+
+#features {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 20px;
+}
+
+.titleimg{
+
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    
+
+    /* background: url(images/logo_main.png); */
+}
+
+.img-small{
+    width: 5%;
+    height: 5%;
+    margin-right: 5px;
+}
+
+
+.container{
+    backdrop-filter: blur(5px);
+    width: 1428px;
+    height: 80px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;   
+    z-index: 1;
+}
+
+.nav-link {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+/* .btn1{
+    position: relative;
+}
+.btn {  
+    
+    /* width: 150px;
+    height: 40px;
+    left: 45%;
+    top: 90%; 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    
+
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #9C4A38;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #41c43f;
+    background-image: -webkit-linear-gradient(top, #41c43f, #41c43f);
+    background-image: -moz-linear-gradient(top, #41c43f, #41c43f);
+    background-image: -ms-linear-gradient(top, #41c43f, #41c43f);
+    background-image: -o-linear-gradient(top, #41c43f, #41c43f);
+    background-image: linear-gradient(to bottom, #41c43f, #41c43f);
+    text-decoration: none;
+} */
+
+
+
+.show1{
+    color: #FFF5DD;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+.feat1 {
+    text-align: center;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+}
+
+#testimonials{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem ;    
+    padding: 6% 15%;
+    margin-top: 70px;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+  .button:hover span {
+    padding-right: 25px;
+}
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.foot-img {
+    width: 45px;
+    height: 45px;
+}
+
+.block {
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
